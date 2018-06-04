@@ -1,0 +1,29 @@
+{
+  "name": "bs-postgres-effects",
+  "version": "0.1.0",
+  "description": "Bucklescript affect bindings for bs-postgres",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-postgres-effects.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-postgres-effects",
+  "bugs": "https://github.com/Risto-Stevcev/bs-postgres-effects/issues",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "dependencies": {
+    "bs-abstract": "^0.15.0",
+    "bs-effects": "^0.9.0",
+    "bs-postgres": "^0.1.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bs-postgres-effects",
+  "version": "0.1.0",
+  "refmt": 3,
+  "namespace": true,
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true,
+    "files": ["Client.ml", "Pool.ml"]
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bs-abstract",
+    "bs-effects",
+    "bs-postgres"
+  ],
+  "warnings": {
+    "error" : "+101",
+    "number": "-102"
+  }
+}
