@@ -1,6 +1,6 @@
 {
   "name": "bs-postgres-effects",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bucklescript affect bindings for bs-postgres",
   "repository": {
     "type": "git",
